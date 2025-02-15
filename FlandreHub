@@ -1,6 +1,6 @@
 -- super premium
 local player = game.Players.LocalPlayer
-local allowedPlayers = {"hoang_huy1k9", "HitoLazyboi", "chaugiatanloczx", "thaylam5A1", "NOOD_Mouse", "hoajldh456"}
+local allowedPlayers = {"hoang_huy1k9", "HitoLazyboi", "chaugiatanloczx", "thaylam5A1", "NOOD_Mouse"}
 
 local isAllowed = false
 for _, name in ipairs(allowedPlayers) do
@@ -120,6 +120,10 @@ for _, item in pairs(workspace:GetChildren()) do
     end
 end
 
+end)
+
+dropsOthers:Button("Flandre Executor Hub/can execute use all script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/nguyenhoangmaiscripter/Executor/refs/heads/main/FlandreHub"))()
 end)
 
 ------------------------------
