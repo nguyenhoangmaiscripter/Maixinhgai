@@ -1,20 +1,3 @@
--- super premium
-local player = game.Players.LocalPlayer
-local allowedPlayers = {"hoang_huy1k9", "HitoLazyboi", "chaugiatanloczx", "thaylam5A1", "NOOD_Mouse"}
-
-local isAllowed = false
-for _, name in ipairs(allowedPlayers) do
-    if player.Name == name then
-        isAllowed = true
-        break
-    end
-end
-
-if isAllowed then
-    print("MUA SCRIPT ĐÊ")
-else
-    player:Kick("MUA SCRIPT ĐÊ R CHO SÀI")
-end
 -- Load thư viện DiscordLib với cú pháp an toàn
 local success, DiscordLib = pcall(function()
     return loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord"))()
